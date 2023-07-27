@@ -1,0 +1,4 @@
+<p *ngIf="statut" [attr.statut]="statut">p1</p>
+<p *ngIf="!statut" [attr.statut]="statut">p2</p>
+
+<button (click)="invert()">Inverser</button>
